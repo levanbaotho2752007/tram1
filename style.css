@@ -188,7 +188,7 @@ html {
 
 .card__item {
     position: absolute;
-    width: 7.5%;
+    width: 5.5%;
     aspect-ratio: 1;
     background: transparent;
     border: none;
@@ -204,12 +204,12 @@ html {
     transform: translate(-50%, -50%) scale(1.2);
 }
 
-.item-6 { top: 31%; left: 17.5%; }
-.item-5 { top: 44.5%; left: 10.5%; }
-.item-4 { top: 31%; left: 40.5%; }
-.item-3 { top: 40%; left: 64.5%; }
-.item-2 { top: 66.5%; left: 49%; }
-.item-1 { top: 79.5%; left: 88.5%; }
+.item-6 { top: 30.5%; left: 17.6%; }
+.item-5 { top: 44.4%; left: 9.6%; }
+.item-4 { top: 29.6%; left: 40.3%; }
+.item-3 { top: 39.8%; left: 64.5%; }
+.item-2 { top: 66.6%; left: 49.0%; }
+.item-1 { top: 79.6%; left: 88.4%; }
 
 .card__link {
     display: flex;
