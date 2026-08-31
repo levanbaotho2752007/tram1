@@ -198,6 +198,7 @@ html {
     transition: transform 0.2s ease;
     cursor: pointer;
     z-index: 2;
+    overflow: hidden;
 }
 
 .card__item:hover {
@@ -230,7 +231,9 @@ html {
 .link__icon img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    border-radius: 50%;
+    clip-path: circle(50% at 50% 50%);
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
 }
 
