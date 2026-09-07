@@ -242,7 +242,6 @@ a {
     color: inherit; 
 }
 
-/* Modal Popup ảnh */
 .modal {
     display: none;
     position: fixed;
@@ -287,6 +286,7 @@ a {
     font-weight: bold;
     cursor: pointer;
     transition: color 0.2s ease;
+    user-select: none;
 }
 
 .modal__close:hover {
