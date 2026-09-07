@@ -38,7 +38,7 @@
 
                 <div class="card">
                     <div class="card__item item-6">
-                        <a href="#" target="_blank" class="card__link">
+                        <a href="javascript:void(0)" class="card__link js-modal-trigger" data-img="./ve.png">
                             <div class="link__icon">
                                 <img src="./6.png" alt="Icon 6">
                             </div>
@@ -78,7 +78,7 @@
                     </div>
                     
                     <div class="card__item item-1">
-                        <a href="#" target="_blank" class="card__link">
+                        <a href="javascript:void(0)" class="card__link js-modal-trigger" data-img="./sbr.png">
                             <div class="link__icon">
                                 <img src="./1.png" alt="Icon 1">
                             </div>
@@ -88,10 +88,9 @@
             </div>
         </div>
 
-        <!-- Popup xem ảnh sbr.png -->
-        <div class="modal" id="modal-sbr">
+        <div class="modal" id="modal-popup">
             <span class="modal__close" id="modal-close">&times;</span>
-            <img class="modal__content" src="./sbr.png" alt="Ảnh trạm 2 SBR">
+            <img class="modal__content" id="modal-img" src="" alt="Ảnh chi tiết">
         </div>
 
         <script src="./script.js"></script>
